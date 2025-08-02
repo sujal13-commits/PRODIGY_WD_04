@@ -15,7 +15,6 @@ Welcome to my portfolio! This is a responsive and modern portfolio website built
 - 🧠 Typing animation using `Typed.js`
 - 🛠️ Projects section to showcase work
 - 📞 Contact section with email and social links
-- 🧾 Resume download button
 
 ---
 
