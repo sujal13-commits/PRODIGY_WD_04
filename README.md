@@ -18,5 +18,3 @@ Welcome to my portfolio! This is a responsive and modern portfolio website built
 
 ---
 
-## 📁 Folder Structure
-
