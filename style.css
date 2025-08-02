@@ -414,3 +414,101 @@ html {
 section {
   scroll-margin-top: 80px;
 }
+
+
+/* Responsive adjustments for tablets */
+@media screen and (max-width: 1024px) {
+  .firstsection,
+  .mainabout {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .leftsection,
+  .about-left,
+  .about-right,
+  .firstsection > div {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .about-right img {
+    width: 100%;
+    height: auto;
+  }
+
+  .profile-photo {
+    width: 250px;
+    height: 250px;
+  }
+
+  .projectfirst,
+  .projectsecond,
+  .projectthird {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .about-left-buttons {
+    justify-content: center;
+    margin-left: 0;
+  }
+
+  .skillset {
+    flex-direction: column;
+    gap: 40px;
+  }
+}
+
+/* Responsive adjustments for mobile phones */
+@media screen and (max-width: 768px) {
+  nav {
+    flex-direction: column;
+    height: auto;
+    padding: 10px 0;
+  }
+
+  nav ul {
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 10px;
+  }
+
+  .left {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+
+  .leftsection {
+    font-size: 2rem;
+  }
+
+  .projectfirst,
+  .projectsecond,
+  .projectthird {
+    margin: 20px;
+    padding: 20px;
+  }
+
+  .button-listleft,
+  .button-listright {
+    width: 100%;
+    align-items: center;
+  }
+
+  .about-right img {
+    width: 90%;
+    height: auto;
+  }
+
+  .about-left-buttons {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .contact-form {
+    width: 90%;
+  }
+}
