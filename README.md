@@ -5,7 +5,6 @@ Welcome to my portfolio! This is a responsive and modern portfolio website built
 ## 🚀 Live Demo
 
 🔗 [Click here to view my portfolio](https://sujal13-commits.github.io/PRODIGY_WD_04/)  
-_(Make sure you enable GitHub Pages for this repo)_
 
 ---
 
